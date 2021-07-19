@@ -1,0 +1,48 @@
+.design {
+	padding: 50px 0;
+	background: $white;
+	position: relative;
+	height: 72.5rem;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	align-items: center;
+	@include media-breakpoint-down(md) {
+		height: auto;
+	}
+	.design-content {
+		position: relative;
+		z-index: 5;
+		background: $white;
+		padding-top: 27px;
+		@include media-breakpoint-down(md) {
+			padding: 20px;
+		}
+		h2 {
+			margin-bottom: 42px;
+		}
+	}
+	.design-decor {
+		position: absolute;
+		overflow: hidden;
+		width: 39.5%;
+		height: 100%;
+		right: 0;
+		top: 0;
+		background-color: $lightGray;
+		&:before {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			height: 10000px;
+			width: 100%;
+			background-color: $lightPink;
+			transform-origin: 0 100%;
+			transform: rotate(49.3deg);
+		}
+		@include media-breakpoint-down(md) {
+			width: 100%;
+		}
+	}
+}

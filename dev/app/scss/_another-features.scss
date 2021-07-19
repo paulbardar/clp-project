@@ -1,0 +1,22 @@
+.another-features {
+    padding: 104px 0 0;
+    background: $gray;
+    @include media-breakpoint-down(md) {
+        padding: 30px 0 0;
+    }
+    .block-head {
+        margin-bottom: 90px;
+        max-width: 655px;
+        margin: 0 auto;
+        margin-bottom: 91px;
+    }
+    h2 {
+        margin-bottom: 32px;
+    }
+    .content {
+        text-align: center;
+    }
+    .anth-feat-img {
+        margin: 0;
+    }
+}

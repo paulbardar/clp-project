@@ -1,0 +1,100 @@
+.contact-block {
+	padding: 94px 0 87px;
+	background: $blue;
+	@include media-breakpoint-down(md) {
+		padding: 35px 0;
+	}
+	.block-head {
+		mark {
+			background-color: transparent;
+			color: $white;
+			font-size: 40px;
+			letter-spacing: 4px;
+			padding: 0;
+		}
+	}
+	small {
+		margin-bottom: 1px;
+	}
+}
+
+.contact-form {
+	margin-bottom: 47px;
+	.contact-form-body {
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		position: relative;
+		padding-top: 18px;
+		input {
+			width: 45%;
+			margin-bottom: 15px;
+			padding: 10px 26px;
+			color: $gray;
+			background-color: $lightBlue;
+			border-radius: 3px;
+			border: 1px solid $white;
+			&::placeholder {
+				color: $gray;
+				text-transform: uppercase;
+			}
+			&:focus {
+				outline: none;
+			}
+			@include media-breakpoint-up(lg) {
+				width: 23%;
+				margin-bottom: 0;
+			}
+			@include media-breakpoint-down(sm) {
+				width: 100%;
+			}
+		}
+		input[type=submit] {
+			background-color: $pink;
+			text-align: center;
+			border: none;
+			&:hover {
+				background-color: darken($pink, 10%);
+			}
+		}
+		.submit-text {
+			position: absolute;
+			letter-spacing: 1px;
+			right: 18px;
+			top: -45px;
+			color: $white;
+			padding-left: 31px;
+			&:before {
+				content: url('../images/arrow.png');
+				position: absolute;
+				top: 25%;
+				left: -7px;
+			}
+			@include media-breakpoint-down(lg) {
+				top: 100%;
+				bottom: -10px;
+				&:before {
+					transform: scale(1, -1);
+					top: 100%;
+					bottom: -25px;
+				}
+			}
+		}
+	}
+}
+
+.confirm {
+	text-align: center;
+	color: rgba(246, 245, 243, 0.6);
+	letter-spacing: 0.7px;
+	word-spacing: -1.3px;
+	a {
+		color: inherit;
+		text-decoration: underline;
+		&:hover {
+			color: $white;
+		}
+	}
+}

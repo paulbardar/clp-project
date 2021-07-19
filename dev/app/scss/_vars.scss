@@ -1,0 +1,79 @@
+// vars
+$images: '../images/';
+$fonts: '../fonts/';
+$fa-font-path: '../fonts/fontawesome';
+
+// fonts
+$iconfont: 'FontAwesome';
+$degular: 'Degular', sans-serif;
+$playfair_display: 'Playfair Display', serif;
+$exo: 'Exo', sans-serif;
+$lato: 'Lato', sans-serif;
+
+// bootstrap grid
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+$grid-gutter-width-mobile: $grid-gutter-width;
+
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1340px
+);
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1170px
+);
+
+// colors
+$white: #fff;
+$black: #000;
+$gray: #F6F5F3;
+$lightGray: #ECECEC;
+$dark: #282828;
+$darkGray: #F5F6F8;
+$blue: #323969;
+$lightBlue: #464C77;
+$pink: #FF6D6D;
+$lightPink: #FB8686;
+$lightDark: #8286A3;
+$darkPink: #FF8A8A;
+$socialColor: #CBCBCB;
+$inputBorder: #4E4E5E;
+
+$btn-color: $white;
+$btn-bg: $pink;
+
+// base vars
+$text-color-base: $dark;
+$text-color-secondary: $white;
+$body-bg: $white;
+$font-family-base: $exo;
+$font-size-base: 1.8rem;
+$font-size-primary: 1.6rem;
+$font-size-secondary: 1.4rem;
+$font-weight-base: 400;
+$line-height-base: 1.625;
+$links-color-base: inherit;
+$headings-font-family: $exo;
+$headings-font-weight: 400;
+$link-hover-color: $pink;
+
+$transition: all .3s ease;
+
+$fontTitle: $headings-font-family;
+$fsH1Title: 6rem;
+$fsH2Title: 4rem;
+$fsH3Title: 2.7rem;
+$fsH4Title: 2.2rem;
+$fsH5Title: 1.8rem;
+$fsH6Title: 11.4rem;
+
+// dev2
+// dev3
+// dev4
